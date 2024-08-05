@@ -33,3 +33,7 @@ st.write('### Correlation Heatmap')
         st.pyplot(fig)
 else:
     st.write('Please upload a CSV file to visualize the data.')
+
+git add app.py
+git commit -m "Add Streamlit app"
+git push origin main
